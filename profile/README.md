@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Paylegit-LLC-in/.github/main/profile/banner.png" alt="PayLegit" width="480"/>
+<img src="https://raw.githubusercontent.com/Ai-Tech-Secure/.github/main/profile/banner.png" alt="PayLegit" width="480"/>
 
 # PayLegit
 
@@ -16,7 +16,7 @@ We continuously verify whether merchants, their content, and their payment flows
 
 ## What this organisation is
 
-[Paylegit-LLC-in](https://github.com/Paylegit-LLC-in) is the GitHub home for **PayLegit** product modules.
+[Ai-Tech-Secure](https://github.com/Ai-Tech-Secure) is the GitHub home for **PayLegit platform and operations** (Live Server Monitor, Orchestrator & Connector). Product modules live in [Paylegit-LLC-in](https://github.com/Paylegit-LLC-in).
 
 PayLegit is built around a shift that traditional onboarding misses: today's fraud often looks like a legitimate merchant. Payments move through pay-by-link, UPI VPAs, messaging apps, crypto wallets, and off-platform checkout while the card-monitored storefront stays clean.
 
@@ -28,7 +28,7 @@ Product repositories are **private**. If you are a PayLegit engineer, partner, o
 
 ## Product modules
 
-Live production modules. Product pages live on [paylegit.in](https://paylegit.in); GitHub repos in this org use the names in the **Repo** column.
+Live production modules. Product pages live on [paylegit.in](https://paylegit.in). Source for these products is in **[Paylegit-LLC-in](https://github.com/Paylegit-LLC-in)** unless noted.
 
 | Module | What it does | Repo |
 | --- | --- | --- |
@@ -47,10 +47,10 @@ Live production modules. Product pages live on [paylegit.in](https://paylegit.in
 
 | System | Role | Repo |
 | --- | --- | --- |
-| Live Server Monitor | Fleet health, flags, agents, access | `live-server-monitor` |
-| Orchestrator & Connector | Cross-module jobs and tenant wiring | `orchestrator-connector` |
-| Portal Builder | Tenant portals and site delivery | `portal-builder` |
-| PayLegit website | Public site — [paylegit.in](https://paylegit.in) | `paylegit-website` |
+| Live Server Monitor | Fleet health, flags, agents, access — [monitor.paylegit.in](https://monitor.paylegit.in) | [`Live-Server-Monitor`](https://github.com/Ai-Tech-Secure/Live-Server-Monitor) |
+| Orchestrator & Connector | Identity / IGA and tenant wiring — [iga.aitechsecure.com](https://iga.aitechsecure.com) | [`Orchestrator-Connector`](https://github.com/Ai-Tech-Secure/Orchestrator-Connector) |
+| Portal Builder | Tenant portals and site delivery | [Paylegit-LLC-in/Portal-Builder](https://github.com/Paylegit-LLC-in/Portal-Builder) |
+| PayLegit website | Public site — [paylegit.in](https://paylegit.in) | [Paylegit-LLC-in/paylegit-website](https://github.com/Paylegit-LLC-in/paylegit-website) |
 
 Operations dashboard: [monitor.paylegit.in](https://monitor.paylegit.in)
 
@@ -81,7 +81,7 @@ Every risk decision is meant to ship with **quoted evidence** so compliance can 
 ### Engineers joining a module
 
 1. Ask an org owner (`paylegit-in`) for access to the repo you will work on.
-2. Read **[CONTRIBUTING.md](https://github.com/Paylegit-LLC-in/.github/blob/main/CONTRIBUTING.md)** — branch names, PRs, secrets, Docker.
+2. Read **[CONTRIBUTING.md](https://github.com/Ai-Tech-Secure/.github/blob/main/CONTRIBUTING.md)** — branch names, PRs, secrets, Docker.
 3. Clone the module, copy `.env.example` → `.env`, then `docker compose up -d --build`.
 4. Confirm health on the module README before changing behaviour.
 5. Open a PR against `main`. Do not push secrets, production dumps, or customer evidence.
@@ -116,7 +116,7 @@ Use the **Member** view of this Overview for the internal checklist (transfer re
 
 Report vulnerabilities privately to **[contact@paylegit.in](mailto:contact@paylegit.in)**. Do not open a public issue for a security finding.
 
-See **[SECURITY.md](https://github.com/Paylegit-LLC-in/.github/blob/main/SECURITY.md)**.
+See **[SECURITY.md](https://github.com/Ai-Tech-Secure/.github/blob/main/SECURITY.md)**.
 
 ---
 
