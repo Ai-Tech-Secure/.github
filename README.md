@@ -1,13 +1,13 @@
-# PayLegit GitHub organisation files
+# Ai Tech Secure — organisation files
 
-This public repository powers the [Paylegit-LLC-in](https://github.com/Paylegit-LLC-in) organisation.
+This public repository powers the [Ai-Tech-Secure](https://github.com/Ai-Tech-Secure) Overview.
 
 | Path | Purpose |
 | --- | --- |
-| [`profile/README.md`](profile/README.md) | Shown on the organisation **Overview** tab |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Default contributing guide for repos in this org |
-| [`SECURITY.md`](SECURITY.md) | How to report a vulnerability |
+| [`profile/README.md`](profile/README.md) | Organisation Overview |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Default contributing guide |
+| [`SECURITY.md`](SECURITY.md) | Vulnerability reporting |
 | [`SUPPORT.md`](SUPPORT.md) | Where to ask for help |
 | [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) | Default pull request template |
 
-Do not put customer data, production secrets, or private runbooks here. Member-only notes live in the private [`.github-private`](https://github.com/Ai-Tech-Secure/.github-private) repository.
+Product modules are not hosted here. See [Paylegit-LLC-in](https://github.com/Paylegit-LLC-in). Member-only notes: [`.github-private`](https://github.com/Ai-Tech-Secure/.github-private).

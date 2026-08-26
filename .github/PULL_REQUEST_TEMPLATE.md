@@ -2,26 +2,18 @@
 
 - What changed, and why.
 
-## Module
+## Repository
 
-- [ ] Content Compliance
-- [ ] KYC & Payment Shield
-- [ ] MCC Online
-- [ ] Mule & Shell Analysis
-- [ ] Offline MCC
-- [ ] Onboarding Risk Analysis
-- [ ] Payment Risk Scanner
-- [ ] Underwriting Reports
-- [ ] Worldwide Crawler
-- [ ] Scheme Shield
-- [ ] Platform (monitor / orchestrator / portal / website)
+- [ ] Live-Server-Monitor
+- [ ] Orchestrator-Connector
 - [ ] Org / docs only
 
 ## How you verified
 
-- [ ] Local `docker compose` (or documented equivalent) still starts
-- [ ] Health / login / primary flow checked
-- [ ] No secrets, `.env`, or customer evidence in the diff
+- [ ] Local stack still starts
+- [ ] Health / login checked
+- [ ] No secrets or `.env` in the diff
+- [ ] Understood that merge to `main` deploys to VPS-0
 
 ## Notes for reviewers
 
