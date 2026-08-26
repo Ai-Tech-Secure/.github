@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.png" alt="PayLegit" width="480"/>
+<img src="https://raw.githubusercontent.com/Paylegit-LLC-in/.github/main/profile/banner.png" alt="PayLegit" width="480"/>
 
 # PayLegit
 
